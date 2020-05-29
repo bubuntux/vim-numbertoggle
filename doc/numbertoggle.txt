@@ -13,23 +13,10 @@ Relative numbers are only used in a buffer that has focus, and is in normal
 mode, since that's where you move around. They're turned off when you switch
 out of Vim, switch to another split, or when you go into insert mode.
 
-LEGACY SUPPORT                                  *numbertoggle-legacy*
-
-Since version 2.0, numbertoggle dropped support for Vim < 7.3, and removed its
-configuration options in favor of a simple implementation with sensible
-defaults. If that doesn't work for you or your setup, you can switch to the
-legacy version by installing it from the legacy branch at
-<https://github.com/jeffkreeftmeijer/vim-numbertoggle/tree/legacy>.
-
-Also, numbertoggle doesn't set up a trigger to switch between line number
-modes anymore. To set one up yourself using <C-n>, use:
->
-    :nnoremap <silent> <C-n> :set relativenumber!<cr>
-<
 ABOUT                                           *numbertoggle-about*
 
 Grab the latest version or report a bug on GitHub:
 
-http://github.com/jeffkreeftmeijer/vim-numbertoggle
+https://github.com/bubuntux/vim-numbertoggle
 
  vim:tw=78:et:ft=help:norl:
